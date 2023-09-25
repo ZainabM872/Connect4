@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="'en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>connect 4</title>
+  <script src = "app.js" charset = "utf-8"></script>
+  <link rel = "stylesheet" href="style.css"></link>
+</head>
+
+<body>
+
+  <div class="center">
+    <!-- comment: span allows us to colour text -->
+    <h3>The current player is: Player <span id="current-player" style="color: #CE796B;"> 1</span></h3>
+    <h3 id="result" style="color: #CE796B;"><h3>
+    </div>
+
+<div class =grid> <!-- comment: 7 by 6 grid - 42 divs -->
+    
+  <!-- comment: first row-->
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <!-- comment: bottom row is all assigned as taken -->
+    <div class ="taken"></div>
+    <div class ="taken"></div>
+    <div class ="taken"></div>
+    <div class ="taken"></div>
+    <div class ="taken"></div>
+    <div class ="taken"></div>
+    <div class ="taken"></div>
+
+
+</div>
+
+
+
+<div class="rules">
+
+  <div class="new">
+    <h2>Welcome to Connect-4!</h2>
+  </div>
+
+<h3 style="color: #CE796B;"><br>Rules:</h3>
+<p>1. Decide who will be player 1 and 2. Only one player plays at a time.<br>
+  2. On your turn, click one of the spots you want to place your disk in.<br>
+  3. An error will pop up if you try to put a disk in a spot it cant go in <br>
+  4. The game ends when there is 4-in-a-row (horizontally, vertically, or <br>diagonally), or a stalemate<br>
+  5. The winner goes first on the next game
+
+</p>
+</div>
+
+</body>
+
+</html>

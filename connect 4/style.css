@@ -1,0 +1,52 @@
+.center {
+    text-align: center;
+    border: 3px dotted #E7AD99;
+}
+
+.new {
+    text-align: center;
+        border: 0.5rem outset #CE796B;
+        outline: 0.5rem solid #E7AD99;
+        box-shadow: 0 0 0 1.5rem #ECC8AF;
+        border-radius: 12px;
+        color: #9c6644;
+        margin: 2rem;
+        padding: 1rem;
+        outline-offset: 0.5rem;
+        top: 1000px;
+}
+.rules {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    font-size: 18px;
+    
+  }
+
+
+
+
+.grid{
+    border: 1px solid #CE796B;
+    display:flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 700px;
+}
+
+.grid div {
+    height: 100px;
+    width: 100px;
+    
+}
+
+.player-one {
+    background-color: #ECC8AF;
+    border-radius:50px;
+}
+
+.player-two {
+    background-color: #E7AD99;
+    border-radius: 50px;
+}
+
